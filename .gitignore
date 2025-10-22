@@ -1,0 +1,81 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs de texte et IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.log
+*.cache
+
+# Fichiers de sauvegarde
+*~
+*.orig
+*.rej
+
+# Dossiers de build ou temporaires
+_site/
+.sass-cache/
+node_modules/
+dist/
+build/
+
+# Environnements Python (si scripts Python)
+venv/
+.venv/
+env/
+.env/
+*.pyc
+__pycache__/
+
+# Fichiers de configuration locaux
+.local/
+local/
+config.local.*
+
+# Certificats et clés (ne jamais commiter)
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Fichiers sensibles
+.env
+secrets.yml
+secrets.yaml
+*-secret.yml
+*-secret.yaml
+
+# Kubeconfig (ne jamais commiter les vrais kubeconfig)
+kubeconfig
+*.kubeconfig
+kubeconfig.*
+
+# Logs
+logs/
+*.log
+
+# Fichiers MacOS
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
